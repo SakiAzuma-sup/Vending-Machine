@@ -27,7 +27,10 @@ public class CheckMoney {
 			}
 			check = "soda";
 			
-		boolean donai = true;			
+		boolean donai = true;	
+		
+		
+	if(kane<=80) {
 		while(donai) {			
 		
 			if(kane<100) {
@@ -84,7 +87,8 @@ public class CheckMoney {
 			}
 			
 			}
-		}			
+		}
+		}
 			
 			if(kane>=100) {
 				check = "cola";
