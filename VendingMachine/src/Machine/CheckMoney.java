@@ -14,7 +14,7 @@ public class CheckMoney {
 	
 			Scanner scanner = new Scanner(System.in);
 		
-			while(kane<80) {
+			while(kane<80) {			//￥80未満の際、不足メッセージ
 			
 				System.out.println("");
 				System.out.println(Word.MSG_PAY_CHECK1);
@@ -23,7 +23,6 @@ public class CheckMoney {
 				System.out.print(Word.MSG_PAY_CHECK3);
 				kane = kane+scanner.nextInt();
 				
-
 			}
 			check = "soda";
 			
